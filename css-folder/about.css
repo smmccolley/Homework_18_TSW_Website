@@ -1,0 +1,235 @@
+
+ /*Navigation*/
+
+ .gradient {
+    background-image: linear-gradient(#ffffff transparent 100%,#0C1D3E transparent 20%);
+
+}
+.primaryNav {
+    background-image: url(../images-folder/sarah_marta_makeover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 300px;
+    grid-template-areas:
+        "logo navBar"
+        "staffName staffName";
+    margin: 0px;  
+}
+
+#logo {
+    grid-area: logo;
+    display: flex;
+    position: relative;
+    transform: scale(.35);
+    margin-left: -15%;
+    justify-content: flex-start;
+}
+.navBar {
+    display: flex;
+    grid-area: navBar;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Staff | Sarah McColley - Title*/
+
+.staffName {
+    display: grid;
+    grid-area: staffName;
+    text-align: right;
+    font-weight: 700;
+    margin-right: 30%;
+    margin-top: 20%;
+    color: white;
+    
+}
+/* Text Grid - About*/
+.aboutStaff {
+    display: grid;
+    grid-template-columns: 300px 80%;
+    grid-template-rows: 300px 95vh;
+    grid-template-areas:
+        "headshot experience"    
+        "sidebar experience";
+    grid-gap: 3%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.headshot {
+    grid-area: headshot;
+    background-image: url(../images-folder/sarah_headshot.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0%;
+
+}
+
+.Experience {
+    grid-area: experience;
+}
+.experienceTitle {
+    color: #187AA5;
+}
+.forFun {
+    color: #187AA5;
+    font-weight: 700;
+}
+.sidebar {
+    grid-area: sidebar;
+    margin-top: -10%;
+}
+#sideDescription1 {
+    color: #187AA5;
+    font-weight: 500;
+    font-style: italic;
+}
+#education {
+    font-weight: 700;
+}
+#profAffiliations {
+    font-weight: 700;
+}
+#contact {
+    font-weight: 700;
+}
+
+
+/*Featured Projects | Sarah McColley*/
+.featuredProjects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    grid-gap: 2%;
+    grid-template-areas:
+        "recess sandySprings decatur";
+    align-content: start;
+    margin-right: 3%;
+    margin-left: -2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+
+#recess {
+    grid-area: recess;
+    background-image: url(../images-folder/recess_grid.png);
+    background-size: cover;
+    margin-left: 15%;
+    background-image: linear-gradient(#ffffff transparent 100%,#0C1D3E transparent 20%);
+}
+
+#recess h3 {
+    text-align:left;
+    padding: 2%;
+    font-weight: 700;
+}
+#sandySprings {
+    grid-area: sandySprings;
+    background-image: url(../images-folder/northsprings_site1_aerial.jpg);
+    background-size: cover;
+    background-color: #187AA5;
+}
+#sandySprings h3 {
+    text-align:left;
+    padding: 2%;
+    font-weight: 700;
+}
+
+#decatur {
+    grid-area: decatur;
+    background-image: url(../images-folder/decatur_openingnight.jpg);
+    background-size: cover;
+    background-color: #187AA5;
+}
+
+#decatur h3 {
+    text-align:left;
+    padding: 2%;
+    font-weight: 700;
+}
+            
+            
+/*Footer*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 300px;
+    grid-gap: 6%;
+    grid-template-areas:
+        "sayHello sayHello"
+        "footerLeft footerRight";
+    background-color: #187AA5;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.sayHello {
+    grid-area: sayHello;
+    font-weight: 700px;
+    color: #C1D959;
+    margin-left: 9%;
+    padding: 3%;
+    margin-bottom: 5%;
+}
+.footerLeft {
+    grid-area: footerLeft;
+    margin-left: 25%;
+    margin-top: 5%;
+    color: white;
+}
+
+.footerRight {
+    grid-area: footerRight;
+    margin-top: 5%;
+}
+.team {
+    font-weight: 700;
+    color: white;
+}
+.designTeam {
+    color: white;
+    width: 500px;
+}
+.whitePrimary {
+    font-weight: 200;
+    border: 1.5px solid white;
+    background-color: transparent;
+    color: white;
+    width: 200px;
+}
+/* Typography CSS */
+
+h1 {
+    font-size: 45px;
+    margin: 0px 0px;
+    font-weight: 700px;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-size: 35px;
+    margin: 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+  
+h3 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+  
+h4 {
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}

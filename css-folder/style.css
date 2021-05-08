@@ -33,10 +33,10 @@
     align-items: center;
     justify-content: space-between;
 }
-.heroProject {
+.heroProject p {
     margin-left: 15%;
     color: white;
-    align-items: end;
+    width: 85%;
 }
 
 /*Studios*/
@@ -58,7 +58,7 @@
     grid-template-areas:
         "planning architecture larch";
     text-align: center;
-    align-items: center; 
+    align-content: center; 
     margin-right: 3%;
     margin-left: -3%;
     margin-top: 5%;
@@ -188,6 +188,7 @@
     margin-left: 3%;
     margin-top: -3%;
 }
+
 .projectName {
     font-weight: 700;
     width: 55%;
