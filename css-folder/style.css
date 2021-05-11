@@ -41,7 +41,10 @@
 a {
     color: white;
     text-decoration: none;
-
+}
+a:active {
+    color: white;
+    text-decoration: underline, #187AA5;
 }
 .heroProject p {
     margin-left: 20%;
