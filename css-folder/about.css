@@ -6,16 +6,21 @@
 
 }
 .primaryNav {
-    background-image: url(../images-folder/sarah_marta_makeover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: grid;
     grid-template-columns: 35% 65%;
     grid-template-rows: 300px;
     grid-template-areas:
         "logo navBar"
         "staffName staffName";
-    margin: 0px;  
+    margin: 0px; 
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,012840+84,012840+84&0+0,0.9+100;TSW */
+     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(1,40,64,0.76) 84%, rgba(1,40,64,0.9) 100%),url(../images-folder/sarah_marta_makeover.jpg); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/sarah_marta_makeover.jpg); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/sarah_marta_makeover.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e6012840',GradientType=0 ); /* IE6-9 */   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center; 
 }
 
 #logo {
@@ -48,6 +53,7 @@
     font-weight: 700;
     margin-right: 30%;
     margin-top: 20%;
+    position: relative;
     color: white;
     
 }
@@ -67,10 +73,12 @@
 .headshot {
     grid-area: headshot;
     background-image: url(../images-folder/sarah_headshot.jpg);
-    background-size: cover;
+    background-size: 300px;
     background-position: center;
-    margin-top: 0%;
-
+    background-repeat: no-repeat;
+    margin-top: -150%;
+    position: relative;
+    z-index: 5;
 }
 
 .Experience {
@@ -85,7 +93,7 @@
 }
 .sidebar {
     grid-area: sidebar;
-    margin-top: -10%;
+    margin-top: -80%;
 }
 #sideDescription1 {
     color: #187AA5;
@@ -114,17 +122,26 @@
     align-content: start;
     margin-right: 3%;
     margin-left: -2%;
-    margin-top: 5%;
+    margin-top: -5%;
     margin-bottom: 5%;
     color: white;
 }
 
 #recess {
+    display: flex;
     grid-area: recess;
-    background-image: url(../images-folder/recess_grid.png);
-    background-size: cover;
     margin-left: 15%;
-    background-image: linear-gradient(#ffffff transparent 100%,#0C1D3E transparent 20%);
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,012840+84,012840+84&0+0,0.9+100;TSW */
+     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(1,40,64,0.76) 84%, rgba(1,40,64,0.9) 100%),url(../images-folder/recess_grid.png); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/recess_grid.png); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/recess_grid.png); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e6012840',GradientType=0 ); /* IE6-9 */   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     align-items: flex-end;
+    justify-content: flex-start;
+    
 }
 
 #recess h3 {
@@ -133,10 +150,18 @@
     font-weight: 700;
 }
 #sandySprings {
+    display: flex;
     grid-area: sandySprings;
-    background-image: url(../images-folder/northsprings_site1_aerial.jpg);
-    background-size: cover;
-    background-color: #187AA5;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,012840+84,012840+84&0+0,0.9+100;TSW */
+     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(1,40,64,0.76) 84%, rgba(1,40,64,0.9) 100%),url(../images-folder/northsprings_site1_aerial.jpg); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/northsprings_site1_aerial.jpg); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/northsprings_site1_aerial.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e6012840',GradientType=0 ); /* IE6-9 */   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     align-items: flex-end;
+    justify-content: flex-start;
 }
 #sandySprings h3 {
     text-align:left;
@@ -145,10 +170,18 @@
 }
 
 #decatur {
+    display: flex;
     grid-area: decatur;
-    background-image: url(../images-folder/decatur_openingnight.jpg);
-    background-size: cover;
-    background-color: #187AA5;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,012840+84,012840+84&0+0,0.9+100;TSW */
+     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(1,40,64,0.76) 84%, rgba(1,40,64,0.9) 100%),url(../images-folder/decatur_openingnight.jpg); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/decatur_openingnight.jpg); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/decatur_openingnight.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e6012840',GradientType=0 ); /* IE6-9 */   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     align-items: flex-end;
+    justify-content: flex-start;
 }
 
 #decatur h3 {

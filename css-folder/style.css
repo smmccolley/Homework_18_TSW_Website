@@ -2,15 +2,20 @@
  /*Navigation*/
 
 .primaryNav {
-    background-image: url(../images-folder/buckhead_redefined.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: grid;
     grid-template-columns: 35% 65%;
-    grid-template-rows: 500px 500px;
+    grid-template-rows: 450px 450px;
     grid-template-areas:
         "logo navBar";
     margin: 0px;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,012840+84,012840+84&0+0,0.9+100;TSW */
+     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(1,40,64,0.76) 84%, rgba(1,40,64,0.9) 100%),url(../images-folder/buckhead_redefined.JPG); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/buckhead_redefined.JPG); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/buckhead_redefined.JPG); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e6012840',GradientType=0 ); /* IE6-9 */   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
     
 }
 #logo {
@@ -34,9 +39,11 @@
     justify-content: space-between;
 }
 .heroProject p {
-    margin-left: 15%;
+    margin-left: 20%;
     color: white;
-    width: 85%;
+    width: 90%;
+    font-weight: 700;
+    margin-top: 30%;
 }
 
 /*Studios*/
@@ -67,24 +74,31 @@
 }
 
 #planning {
+    display: flex;
     grid-area: planning;
     background-image: url(../images-folder/buckhead_redefined.JPG);
     background-size: cover;
     margin-left: 15%;
+    justify-content: center;
+    align-items: center;
     
 }
 #architecture {
+    display: flex;
     grid-area: architecture;
     background-image: url(../images-folder/christ_church.jpg);
     background-size: cover;
-    background-color: #187AA5;
+    justify-content: center;
+    align-items: center;
 }
 
 #larch {
+    display: flex;
     grid-area: larch;
     background-image: url(../images-folder/lawrenceville_lawn.jpg);
     background-size: cover;
-    background-color: #187AA5;
+    justify-content: center;
+    align-items: center;
 
 }
 /**Blog Posts**/
@@ -156,15 +170,21 @@
     color: #187AA5;
 }
 #decatur {
+    display: flex;
     grid-area: decatur;
-    background-image: url(../images-folder/decatur_openingnight.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: end;
+    align-items: flex-end;
+    justify-content: flex-start;
     margin-top: -3%;
     margin-right: 3%;
     margin-left: 3%;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,012840+84,012840+84&0+0,0.9+100;TSW */
+     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(1,40,64,0.76) 84%, rgba(1,40,64,0.9) 100%),url(../images-folder/decatur_openingnight.jpg); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/decatur_openingnight.jpg); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/decatur_openingnight.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e6012840',GradientType=0 ); /* IE6-9 */   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
 }
 
 .ssHeadline {
@@ -178,15 +198,21 @@
 }
 
 #sandySprings {
+    display: flex;
     grid-area: sandySprings;
-    background-image: url(../images-folder/northsprings_site1_aerial.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    align-items: end;
+    align-items: flex-end;
+    justify-content: flex-start;
     margin-right: 3%;
     margin-left: 3%;
     margin-top: -3%;
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,012840+84,012840+84&0+0,0.9+100;TSW */
+     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(1,40,64,0.76) 84%, rgba(1,40,64,0.9) 100%),url(../images-folder/northsprings_site1_aerial.jpg); /* FF3.6-15 */
+     background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/northsprings_site1_aerial.jpg); /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(1,40,64,0.76) 84%,rgba(1,40,64,0.9) 100%),url(../images-folder/northsprings_site1_aerial.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e6012840',GradientType=0 ); /* IE6-9 */   
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
 }
 
 .projectName {
