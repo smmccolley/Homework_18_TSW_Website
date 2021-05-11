@@ -38,6 +38,10 @@
     align-items: center;
     justify-content: space-between;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 .heroProject {
     margin-left: 5%;
     grid-area: heroProject;

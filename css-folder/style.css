@@ -38,6 +38,11 @@
     align-items: center;
     justify-content: space-between;
 }
+a {
+    color: white;
+    text-decoration: none;
+
+}
 .heroProject p {
     margin-left: 20%;
     color: white;

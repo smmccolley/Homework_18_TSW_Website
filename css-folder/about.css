@@ -39,6 +39,10 @@
     align-items: center;
     justify-content: space-between;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 
 /*Staff | Sarah McColley - Title*/
 
