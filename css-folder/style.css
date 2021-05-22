@@ -40,10 +40,11 @@
 }
 a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline, 3px, #187AA5;
+    padding: 1%;
 }
 a:active {
-    color: white;
+    color: #187AA5;
     text-decoration: underline, #187AA5;
 }
 .heroProject p {
